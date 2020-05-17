@@ -1,0 +1,5 @@
+1- intenté poner transición en el botón de inscribirte según vi en la página de w3school pero no termino de entender como funciona en el button. Evidentemente debo estar pisando alguna función pero no logro verla. 
+
+Siento que quedó muy desprolijo (el html y el css también) de tanto sacar y ´poner probando así que perdón de antemano. Sigo probando a ver si la mejoro. 
+
+Saludos

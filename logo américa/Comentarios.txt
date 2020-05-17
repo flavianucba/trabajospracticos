@@ -1,0 +1,7 @@
+HOla!
+
+les dejo comentario sobre alguna dificultad que me surgió y que no llego a darme cuenta porque.
+
+- intenté ponerle css a "div" directamente como hizo Sebas en una clase pero no me lo tomaba (juraría que el código estaba igual pero seguro que no) lo van a ver comentado, lo dejé a propósito. Así que después saqué ese div y dejé simplemente los que tienen la clase de su color.
+
+- por eso tuve que ponerle las dimensiones a cada cuadrado. Intenté hacerlo tb en la clase "bloque1" y tampoco me lo tomó, supongo que hay algún tema de herencia que no me doy cuenta.

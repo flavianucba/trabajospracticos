@@ -1,0 +1,52 @@
+@keyframes azul{
+        from {left: 100px;}
+        to {left: 300px;}
+}
+
+
+
+div{
+    width: 20vh;
+    height: 20vh;
+    border-radius: 200px;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+div:hover {
+        width: 300px;
+        height: 300px;
+        transform: rotate(180deg);
+    }
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.azul{
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(50,50,102,1) 25%, rgba(0,212,255,1) 100%);
+    animation: mymove 5s infinite;
+}
+
+.verde{
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(23,115,21,1) 43%, rgba(49,214,62,1) 100%);
+}
+
+.rojo{
+    background: rgb(241,2,28);
+    background: radial-gradient(circle, rgba(241,2,28,1) 0%, rgba(221,13,52,1) 43%, rgba(105,33,43,1) 100%);
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Cabin', sans-serif;
+    font-size: 7em;
+    color: #1b1b1f;
+    margin-top: 10px;
+}
