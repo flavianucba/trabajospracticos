@@ -3,9 +3,41 @@
     src: url("./font/Jost-VariableFont_ital\,wght.ttf");
 }
 
+.nav-portada {
+    display: none;
+}
+.nav-portada a{
+    display: none;
+}
+
+.título {
+   font-size: 1em;
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.nav-mobile {
+    font-size: 30px;
+    border-color: thistle;
+}
+
+.header {
+    background-color: #2c4251;
+
+}
+
+.cursos-portada{
+    justify-content: space-around;
+    
+} 
+
+@media (min-width: 600px){
+    
 .nav-portada{
     display: inline-block;
-    background-color: #2c4251;
+    background-color: #444e55;
     margin: 30px 50px 30px 50px;
     }
 
@@ -21,6 +53,10 @@
     font-size: 1.2em;
 }
 
+.nav-mobile {
+    display: none;
+}
+
 .título{
     font-size: 3em;
     font-family: "jost";
@@ -30,7 +66,7 @@
     justify-content: center;
 }
 
-header{
+.header{
     text-align: center;
     background-image: url(./img/header1.jpg);
     background-repeat: no-repeat;
@@ -38,7 +74,16 @@ header{
     background-position: center;
     height: 50%;
     margin-bottom: 30px;
+} 
+
+.cursos-portada{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+}
+
 
 body{
     margin: 0;
@@ -61,11 +106,6 @@ body{
     margin: 50px 20px 20px 20px;
 }
 
-.cursos-portada{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} 
 
 .boton-inscribir{
   margin-top: 10px;
@@ -82,12 +122,12 @@ body{
     color: white;
 }
 
-.div-medio{
+ .div-medio{
     display: inline-block;
     text-align: center;
     margin: 30px 20px 20px 20px;
 }
-   
+
 .textomedio{
     display: flex;
     justify-content: center;

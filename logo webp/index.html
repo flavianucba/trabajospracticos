@@ -1,0 +1,76 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+
+    <style>
+
+.lista {
+    display: none;
+}
+
+.logo {
+        width: 15%;
+
+}
+
+ .menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+@media (min-width: 500px) {
+    .menumobile {
+        display: none;
+}
+
+    .header {
+        width: 80%;
+        padding: 0 10%;
+}
+
+    /* .menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+} */
+
+
+    .lista {
+        display: flex;
+        list-style: none;
+}
+
+    .lista li {
+        padding-left: 15px;
+}
+
+
+}
+
+
+
+    </style>
+</head>
+    <body>
+        <header class="header">
+            <!-- <nav class="menumobile">
+                
+            </nav> -->
+
+            <nav class="menu">
+                <ion-icon class="menumobile" name="menu-outline"></ion-icon>
+                <img src="logo.webp" alt="" class="logo">
+                <ul class="lista">
+                    <li>link 1</li>
+                    <li>link 2</li>
+                    <li>link 3</li>
+                </ul>
+            </nav>
+        </header>
+        
+    </body>
+</html>
